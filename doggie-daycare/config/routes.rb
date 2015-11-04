@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :dogs
   get 'doggie/treats'
 
   get 'doggie/snacks'
