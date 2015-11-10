@@ -3,7 +3,7 @@ class CreateDogs < ActiveRecord::Migration
     create_table :dogs do |t|
       t.string :name
       t.string :breed
-      t.string :age
+      t.integer :age
 
       t.timestamps null: false
     end

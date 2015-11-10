@@ -40,7 +40,7 @@ gem 'thin'
 gem 'quiet_assets'
 gem 'stamp'
 gem "font-awesome-rails"
-
+gem 'starter_generators'
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
