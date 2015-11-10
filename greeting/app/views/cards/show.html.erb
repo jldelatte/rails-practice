@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Holiday:</strong>
+  <%= @card.holiday %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @card.address %>
+</p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @card.birthday %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @card.note %>
+</p>
+
+<p>
+  <strong>Created At:</strong>
+  <%= @card.created_at %>
+
+</p>
+<%= link_to 'Edit', edit_card_path(@card) %> |
+<%= link_to 'Back', cards_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  holiday: MyString
+  address: MyString
+  birthday: MyString
+  note: MyString
+
+two:
+  holiday: MyString
+  address: MyString
+  birthday: MyString
+  note: MyString
