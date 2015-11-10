@@ -38,10 +38,11 @@ group :development, :test do
 end
 gem 'thin'
 gem 'starter_generators'
-
 group :development do
   gem 'quiet_assets'
 end
+gem 'awesome_print'
+gem 'annotate'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
